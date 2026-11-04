@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Node / frontend build
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.idea/
+
+# Crawler run artifacts (regenerated each run, not source)
+state*.json
+latest*.json
+latest*.html
+newjobs-*.json
+newjobs-*.html
+errors-*.log
+
+# Local secrets / profile data (added for the apply-automation work)
+backend/profile/
+.env
